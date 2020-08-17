@@ -12,12 +12,12 @@ https://github.com/daliansky/XiaoXinPro-13-hackintosh
 ## 我的安装步骤
 ### 1.在windows 下刷入测试版的BIOS，或通过软件修改BIOS设置
 参考文献：https://derrors.cn/hackintosh/dvmt-cfglock.html  
+联想小新 Pro13 的 DVMT Pre-Allocated 的默认数值为 32M，而 macOS 系统里检查 DVMT 值需要至少 64M，因此需要修改 BIOS 里 DVMT Pre-Allocated 数值    
 方法1：   
-联想小新 Pro13 的 DVMT Pre-Allocated 的默认数值为 32M，而 macOS 系统里检查 DVMT 值需要至少 64M，因此需要修改 BIOS 里 DVMT Pre-Allocated 数值  
+通过软件修改   
 方法2：  
 刷入内测版BIOS，直接在开机进入的BIOS中修改
 #### 1.1BIOS必须要修改吗？
-#### 答：必须要，两种方法二选一#### 1.1BIOS必须要修改吗？
 #### 答：必须要，两种方法二选一
 
 #### 1.2我已经安装到一半了，或者windows系统已经格式化了，怎么办？
